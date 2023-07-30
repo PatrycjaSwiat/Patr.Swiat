@@ -7,7 +7,7 @@
 	"item": [
 		{
 			"name": "CreateBoard",
-			"_postman_id": "b9877c36-b42c-460c-810f-30046efee697",
+			"id": "b9877c36-b42c-460c-810f-30046efee697",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -47,7 +47,7 @@
 		},
 		{
 			"name": "create list",
-			"_postman_id": "3932d6e6-e9b7-4371-b4ba-4038c43334c4",
+			"id": "3932d6e6-e9b7-4371-b4ba-4038c43334c4",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -56,10 +56,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"id\": \"64c630c09968baebdd85fdc8\",\r\n  \"name\": \"Things to buy today\",\r\n  \"closed\": true,\r\n  \"pos\": 2154,\r\n  \"softLimit\": \"<string>\",\r\n  \"idBoard\": \"<string>\",\r\n  \"subscribed\": true,\r\n  \"limits\": {\r\n    \"attachments\": {\r\n      \"perBoard\": {\r\n        \"status\": \"ok\",\r\n        \"disableAt\": 36000,\r\n        \"warnAt\": 32400\r\n      }\r\n    }\r\n  }\r\n}",
-					"options": {
-						"raw": {}
-					}
+					"raw": "{\r\n  \"id\": \"64c630c09968baebdd85fdc8\",\r\n  \"name\": \"Things to buy today\",\r\n  \"closed\": true,\r\n  \"pos\": 2154,\r\n  \"softLimit\": \"<string>\",\r\n  \"idBoard\": \"<string>\",\r\n  \"subscribed\": true,\r\n  \"limits\": {\r\n    \"attachments\": {\r\n      \"perBoard\": {\r\n        \"status\": \"ok\",\r\n        \"disableAt\": 36000,\r\n        \"warnAt\": 32400\r\n      }\r\n    }\r\n  }\r\n}"
 				},
 				"url": {
 					"raw": "https://api.trello.com/1/boards/{id}/lists?name=Test List&key=24b3e91228ba498dab09d53615e2bd74&token=ATTA9e3ed8a5714f977258d0d56462f4836de494a147b9cbdfd0a60eb6311ec095d8EBC9BAF&idboard=64c630c09968baebdd85fdc8",
@@ -100,27 +97,25 @@
 		},
 		{
 			"name": "New Request list",
-			"_postman_id": "f31e562e-ecf7-44ed-bb44-2713dfd7a077",
+			"id": "f31e562e-ecf7-44ed-bb44-2713dfd7a077",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
 				"method": "GET",
-				"header": [],
-				"url": null
+				"header": []
 			},
 			"response": []
 		},
 		{
 			"name": "New Request",
-			"_postman_id": "68623a58-7bb9-429f-80b0-57fbc3244f11",
+			"id": "68623a58-7bb9-429f-80b0-57fbc3244f11",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
 				"method": "GET",
-				"header": [],
-				"url": null
+				"header": []
 			},
 			"response": []
 		}
